@@ -8,30 +8,30 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class FindADoctorActivity extends ActionBarActivity {
+public class FindDoctorActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.findadoctormenulayout);
+		setContentView(R.layout.finddoctorlayout);
 		
-		//Find A Doctor Button
-		Button previousDoctorButton = (Button) findViewById(R.id.findadoctor);
-		previousDoctorButton.setOnClickListener(new View.OnClickListener() {
+		//Near Me Button--NOT DONE
+		Button nearMeButton = (Button) findViewById(R.id.near_me);
+		nearMeButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent page = new Intent(FindADoctorActivity.this , FindDoctorActivity.class );
+				Intent page = new Intent(FindDoctorActivity.this , MyBenefitsActivity.class );
 				startActivity(page);
 			}
 		});
-		//Previous Doctor Appointment Information Button--NOT DONE
-		Button searchForDoctorButton = (Button) findViewById(R.id.previousdoctor);
-		searchForDoctorButton.setOnClickListener(new View.OnClickListener() {
+		//Search Button--NOT DONE
+		Button searchButton = (Button) findViewById(R.id.search);
+		searchButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent page = new Intent(FindADoctorActivity.this , MyBenefitsActivity.class );
+				Intent page = new Intent(FindDoctorActivity.this , MyBenefitsActivity.class );
 				startActivity(page);
 			}
 		});
@@ -40,7 +40,7 @@ public class FindADoctorActivity extends ActionBarActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.findadoctormenu, menu);
+		getMenuInflater().inflate(R.menu.finddoctormenu, menu);
 		return true;
 	}
 

@@ -15,9 +15,9 @@ public class LoginActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.loginlayout);
 		
-		//Submit button
-		Button submitbutton = (Button) findViewById(R.id.submit);
-		submitbutton.setOnClickListener(new View.OnClickListener() {
+		//Submit Button
+		Button submitButton = (Button) findViewById(R.id.submit);
+		submitButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
@@ -26,7 +26,16 @@ public class LoginActivity extends ActionBarActivity {
 			}
 		});
 		
-		//Reset button
+		//Reset Button
+		Button resetButton = (Button) findViewById(R.id.reset);
+		resetButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent page = new Intent(LoginActivity.this , LoginActivity.class );
+				startActivity(page);
+			}
+		});
 	}
 
 	@Override

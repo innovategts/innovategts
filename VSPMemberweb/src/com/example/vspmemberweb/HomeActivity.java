@@ -1,9 +1,12 @@
 package com.example.vspmemberweb;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class HomeActivity extends ActionBarActivity {
 
@@ -11,6 +14,37 @@ public class HomeActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.homelayout);
+		
+		//My Benefits Button
+				Button myBenefitsButton = (Button) findViewById(R.id.my_benefits);
+				myBenefitsButton.setOnClickListener(new View.OnClickListener() {
+					
+					@Override
+					public void onClick(View v) {
+						Intent page = new Intent(HomeActivity.this , MyBenefitsActivity.class );
+						startActivity(page);
+					}
+				});
+		//Make A Claim Button--NOT DONE
+				Button makeAClaimButton = (Button) findViewById(R.id.make_a_claim);
+				makeAClaimButton.setOnClickListener(new View.OnClickListener() {
+					
+					@Override
+					public void onClick(View v) {
+						Intent page = new Intent(HomeActivity.this , MyBenefitsActivity.class );
+						startActivity(page);
+					}
+				});
+		//Find A Doctor Button
+				Button findADoctorButton = (Button) findViewById(R.id.find_a_doctor);
+				findADoctorButton.setOnClickListener(new View.OnClickListener() {
+					
+					@Override
+					public void onClick(View v) {
+						Intent page = new Intent(HomeActivity.this , FindADoctorActivity.class );
+						startActivity(page);
+					}
+				});
 	}
 
 	@Override

@@ -17,28 +17,27 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/vsplogo" />
-
+    
     <Button
-        android:id="@+id/find_a_doctor"
+        android:id="@+id/near_me"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/previousdoctor"
-        android:layout_below="@+id/previousdoctor"
+        android:layout_alignLeft="@+id/search"
+        android:layout_below="@+id/search"
         android:layout_marginTop="18dp"
         android:layout_weight="0.28"
-        android:maxLines="1"
-        android:text="Find A Doctor"
-        android:textSize="30sp" />
+        android:text="Find A Doctor Near Me"
+        android:textSize="25sp" />
 
     <Button
-        android:id="@+id/previous_doctor"
+        android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="122dp"
         android:layout_weight="0.73"
-        android:text="Previous Doctor Appointment Information"
-        android:textSize="30sp" />
+        android:text="Search For A Doctor"
+        android:textSize="25sp" />
 
 </RelativeLayout>
