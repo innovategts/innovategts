@@ -11,10 +11,10 @@
         app:showAsAction="never"/>
     <item
         android:id="@+id/near_me"
-        android:title="@string/near_me"/>
+        android:title="@string/title_activity_near_me"/>
     
     <item
         android:id="@+id/search"
-        android:title="@string/search"/>   
+        android:title="@string/title_activity_search"/>   
 
 </menu>

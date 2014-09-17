@@ -7,7 +7,19 @@
     <string name="title_activity_double_me">DoubleMeActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="title_activity_findadoctor">FindADoctorActivity</string>
+    <string name="title_activity_find_a_doctor">FindADoctorActivity</string>
+    <string name="title_activity_find_doctor">FindDoctorActivity</string>
+    <string name="title_activity_previous_doctor">PreviousDoctorActivity</string>
+    <string name="title_activity_my_benefits">MyBenefitsActivity</string>
+    <string name="title_activity_make_a_claim">MakeAClaimActivity</string>
+    <string name="title_activity_near_me">NearMeActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_vsp_wellvision">VSPWellvisionActivity</string>
+    <string name="title_activity_additional_eyecare">AdditionalEyecareActivity</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="title_activity_computer_vision">ComputerVisionActivity</string>
+    <string name="title_activity_specialty_eyecare">SpecialtyEyecareActivity</string>
+    <string name="title_activity_eyeconic">EyeconicActivity</string>
     
     <color name="white">#FFFFFF</color>
 

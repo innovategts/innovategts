@@ -12,9 +12,9 @@
 	
     <item
         android:id="@+id/previous_doctor"
-        android:title="@string/previous_doctor"/>
+        android:title="@string/title_activity_previous_doctor"/>
     
     <item
         android:id="@+id/find_a_doctor"
-        android:title="@string/find_a_doctor"/>
+        android:title="@string/title_activity_find_doctor"/>
 </menu>

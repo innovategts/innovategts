@@ -11,14 +11,14 @@
         app:showAsAction="never"/>
     <item
         android:id="@+id/my_benefits"
-        android:title="@string/my_benefits"/>
+        android:title="@string/title_activity_my_benefits"/>
     
     <item
         android:id="@+id/make_a_claim"
-        android:title="@string/make_a_claim"/>
+        android:title="@string/title_activity_make_a_claim"/>
     
     <item
         android:id="@+id/find_a_doctor"
-        android:title="@string/find_a_doctor"/>    
+        android:title="@string/title_activity_find_a_doctor"/>    
 
 </menu>
