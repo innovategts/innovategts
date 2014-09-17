@@ -40,7 +40,7 @@ public class FindDoctorActivity extends ActionBarActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.finddoctormenu, menu);
+		getMenuInflater().inflate(R.menu.finddoctor, menu);
 		return true;
 	}
 

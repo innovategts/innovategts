@@ -19,6 +19,29 @@
         android:src="@drawable/vsplogo" />
 
     <Button
+        android:id="@+id/search_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/previousdoctor"
+        android:layout_below="@+id/previousdoctor"
+        android:layout_marginTop="18dp"
+        android:layout_weight="0.28"
+        android:maxLines="1"
+        android:text="Search By Name"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/previous_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:layout_weight="0.73"
+        android:text="Previous Doctor Appointment Information"
+        android:textSize="30sp" />
+	
+    <Button
         android:id="@+id/find_a_doctor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,5 +63,5 @@
         android:layout_weight="0.73"
         android:text="Previous Doctor Appointment Information"
         android:textSize="30sp" />
-
+    
 </RelativeLayout>

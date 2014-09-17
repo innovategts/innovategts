@@ -16,7 +16,7 @@ public class FindADoctorActivity extends ActionBarActivity {
 		setContentView(R.layout.findadoctormenulayout);
 		
 		//Find A Doctor Button
-		Button previousDoctorButton = (Button) findViewById(R.id.findadoctor);
+		Button previousDoctorButton = (Button) findViewById(R.id.search_by_name);
 		previousDoctorButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -26,7 +26,7 @@ public class FindADoctorActivity extends ActionBarActivity {
 			}
 		});
 		//Previous Doctor Appointment Information Button--NOT DONE
-		Button searchForDoctorButton = (Button) findViewById(R.id.previousdoctor);
+		Button searchForDoctorButton = (Button) findViewById(R.id.previous_doctor);
 		searchForDoctorButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
