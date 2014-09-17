@@ -56,8 +56,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
         android:hint="username" 
-        android:inputType="text" >
-        <requestFocus />
-	</EditText>
+        android:inputType="text" />
+        
 
 </RelativeLayout>
