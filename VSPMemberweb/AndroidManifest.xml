@@ -27,6 +27,18 @@
             android:name=".HomeActivity"
             android:label="@string/title_activity_home" >
         </activity>
+        <activity
+            android:name=".MyBenefitsActivity"
+            android:label="@string/title_activity_my_benefits" >
+        </activity>
+        <activity
+            android:name=".FindADoctorActivity"
+            android:label="@string/title_activity_find_a_doctor" >
+        </activity>
+        <activity
+            android:name=".FindDoctorActivity"
+            android:label="@string/title_activity_find_doctor" >
+        </activity>
     </application>
 
 </manifest>
